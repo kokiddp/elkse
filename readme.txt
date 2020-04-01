@@ -7,11 +7,11 @@ Requires PHP: 7.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This simple plugin enforces security measures against march 2020 attacks and handkes breach notification
+This simple plugin enforces security measures against march 2020 attacks and handles breach notification
 
 == Description ==
 
-This simple plugin enforces security measures against march 2020 attacks and handkes breach notification.
+This simple plugin enforces security measures against march 2020 attacks and handles breach notification.
 If a breach is detected it tries to prevent database modification and notifies the admin about the occurred breach.
 
 == Installation ==
@@ -23,6 +23,7 @@ If a breach is detected it tries to prevent database modification and notifies t
 
 = 1.0.2 =
 * Prefix all functions
+* Fix typo
 
 = 1.0.1 =
 * Fix critical error
