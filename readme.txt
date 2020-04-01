@@ -21,6 +21,9 @@ If a breach is detected it tries to prevent database modification and notifies t
 
 == Changelog ==
 
+= 1.0.2 =
+* Prefix all functions
+
 = 1.0.1 =
 * Fix critical error
 

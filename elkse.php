@@ -4,7 +4,7 @@
  * Plugin Name:				ELK Security Enforcer
  * Plugin URI:				https://github.com/kokiddp/elkse
  * Description:				This simple plugin enforces security measures against march 2020 attacks and handkes breach notification
- * Version:					1.0.1
+ * Version:					1.0.2
  * Requires at least:		4.6
  * Tested up to:			5.3.2
  * Requires PHP:			7.1
@@ -86,7 +86,7 @@ function elkse_check_save_post( $data, $postarr ) {
 		'https://www.wow-robotics.xyz',
 		'var _0x2cf4'
 	);
-	if ( strposa( $data['post_content'], $needles ) ) {
+	if ( elkse_strposa( $data['post_content'], $needles ) ) {
 		elkse_send_email(
 			sprintf( __( 'IMPORTANT: breach detected on %s', 'elkse' ), get_option( 'elkse_site' ) ),
 			elkse_build_email( __( 'Post Script injection', 'elkse' ) )
@@ -118,7 +118,7 @@ function elkse_build_email( $breach ) {
 	);
 }
 
-function strposa( $haystack, $needles, $offset = 0 ) {
+function elkse_strposa( $haystack, $needles, $offset = 0 ) {
     if ( !is_array( $needles ) ) $needles = array( $needles );
     foreach( $needles as $needle ) {
         if ( strpos( $haystack, $needle, $offset ) !== false ) return true;
