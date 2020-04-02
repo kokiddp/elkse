@@ -1,13 +1,15 @@
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Project-Id-Version: ELK Security Enforcer\n"
-"POT-Creation-Date: 2020-03-30 16:49+0200\n"
-"PO-Revision-Date: 2020-03-30 16:53+0200\n"
+"POT-Creation-Date: 2020-04-02 12:04+0200\n"
+"PO-Revision-Date: 2020-04-02 12:04+0200\n"
+"Last-Translator: \n"
 "Language-Team: \n"
+"Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.3\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
@@ -16,60 +18,54 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"Last-Translator: \n"
-"Language: it_IT\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#: elkse.php:32
+#: elkse.php:33
 msgid "Quarter hourly"
 msgstr "Ogni quarto d'ora"
 
-#: elkse.php:67 elkse.php:75 elkse.php:90
+#: elkse.php:68 elkse.php:76 elkse.php:91
 #, php-format
 msgid "IMPORTANT: breach detected on %s"
 msgstr "IMPORTANTE: violazione rilevata su %s"
 
-#: elkse.php:68
+#: elkse.php:69
 msgid "Site URL change"
 msgstr "Cambio Site URL"
 
-#: elkse.php:76
+#: elkse.php:77
 msgid "Home URL change"
 msgstr "Cambio Home URL"
 
-#: elkse.php:91
+#: elkse.php:92
 msgid "Post Script injection"
 msgstr "Iniezione di Script in un Post"
 
 #. Plugin Name of the plugin/theme
-#: elkse.php:99
+#: elkse.php:103
 msgid "ELK Security Enforcer"
 msgstr "ELK Security Enforcer"
 
-#: elkse.php:110
+#: elkse.php:114
 msgid "Dear administrator,"
 msgstr "Gentile amministratore,"
 
-#: elkse.php:111
+#: elkse.php:115
 #, php-format
 msgid ""
 "ELK Security Enforcer detected a breach involving the following problem: "
 "<strong>%s</strong>."
 msgstr ""
 "ELK Security Enforcer ha rilevato una violazione che riguarda il seguente "
-"problema: <strong>%s</strong>"
+"problema: <strong>%s</strong>."
 
-#: elkse.php:112
+#: elkse.php:116
 #, php-format
 msgid "The breach should have occurred in the 15 minutes before %s."
 msgstr "La violazione dovrebbe essere avvenuta nei 15 minuti precedenti %s."
 
-#: elkse.php:112
-msgid "d/m/Y G:i"
-msgstr "d/m/Y G:i"
-
-#: elkse.php:113
+#: elkse.php:117
 msgid "The ELK Security Enforcer Team"
 msgstr "Il Team ELK Security Enforcer"
 
@@ -80,7 +76,7 @@ msgstr "https://github.com/kokiddp/elkse"
 #. Description of the plugin/theme
 msgid ""
 "This simple plugin enforces security measures against march 2020 attacks and "
-"handkes breach notification"
+"handles breach notification"
 msgstr ""
 "Questo semplice plugin implementa misure di sicurezza contro le violazioni "
 "di marzo 2020 e gestisce la notifica delle violazioni"
@@ -92,3 +88,6 @@ msgstr "ELK-Lab"
 #. Author URI of the plugin/theme
 msgid "https://www.elk-lab.com"
 msgstr "https://www.elk-lab.com"
+
+#~ msgid "d/m/Y G:i"
+#~ msgstr "d/m/Y G:i"

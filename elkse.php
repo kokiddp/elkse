@@ -4,7 +4,7 @@
  * Plugin Name:				ELK Security Enforcer
  * Plugin URI:				https://github.com/kokiddp/elkse
  * Description:				This simple plugin enforces security measures against march 2020 attacks and handles breach notification
- * Version:					1.0.2
+ * Version:					1.0.3
  * Requires at least:		4.6
  * Tested up to:			5.3.2
  * Requires PHP:			7.1
