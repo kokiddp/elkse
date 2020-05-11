@@ -21,6 +21,9 @@ If a breach is detected it tries to prevent database modification and notifies t
 
 == Changelog ==
 
+= 1.0.4 =
+* Add malicious plugins detection
+
 = 1.0.3 =
 * Update Italian translation
 
